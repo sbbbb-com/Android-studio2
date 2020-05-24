@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //发送一条求救广播
+                //测试语句
                 Toast.makeText(MainActivity.this, "救命啊", Toast.LENGTH_SHORT).show();
+
             }
         });
         
