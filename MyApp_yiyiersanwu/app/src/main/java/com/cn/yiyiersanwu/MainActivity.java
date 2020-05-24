@@ -1,5 +1,6 @@
 package com.cn.yiyiersanwu;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,9 +23,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //发送一条求救广播
-                //测试语句
-                Toast.makeText(MainActivity.this, "救命啊", Toast.LENGTH_SHORT).show();
-
+                Intent intent=new Intent();
+                
+                //提示
+                Toast.makeText(MainActivity.this, "救命啊啊", Toast.LENGTH_SHORT).show();
+                
+                //在意图对象中设置动作 Action
+                intent.setAction("Help_Stitch");
+                sendBroadcast(intent);
             }
         });
         

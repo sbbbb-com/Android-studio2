@@ -12,4 +12,5 @@
         android:layout_height="wrap_content"
         android:text="发送求救广播"
         tools:ignore="MissingConstraints" />
+
 </android.support.constraint.ConstraintLayout>
