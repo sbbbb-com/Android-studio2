@@ -4,12 +4,14 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
+import android.widget.Toast;
 
 public class MyService extends Service {
     //创造
     @Override
     public void onCreate() {
         super.onCreate();
+        Toast.makeText(this, "服务启动", Toast.LENGTH_SHORT).show();
         Log.v("app1","service create");
     }
 
