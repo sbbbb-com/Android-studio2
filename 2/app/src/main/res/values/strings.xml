@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">通讯录</string>
+    <string name="action_settings">设置</string>
+    <string name="quit">退出程序</string>
+    <!-- 用于导航片段的字符串 -->
+    <string name="first_fragment_label">第一片段</string>
+    <string name="second_fragment_label">第二片段</string>
+    <string name="next">下一个</string>
+    <string name="previous">返回上一个</string>
+
+    <string name="hello_first_fragment">你好第一个片段</string>
+    <string name="hello_second_fragment">你好第二个片段。 Arg: %1$s</string>
+</resources>
